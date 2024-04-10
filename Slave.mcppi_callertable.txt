@@ -1,0 +1,28 @@
+main
+	__CC2DW
+		____DoICP
+	init
+		i2c_slave_init
+	get_time
+		read_ds1302
+			start_ds1302
+			toggle_write_ds1302
+			toggle_read_ds1302
+			stop_ds1302
+	get_date
+		read_ds1302
+			start_ds1302
+			toggle_write_ds1302
+			toggle_read_ds1302
+			stop_ds1302
+	set_time
+		write_ds1302
+			start_ds1302
+			toggle_write_ds1302
+			stop_ds1302
+	set_date
+		write_ds1302
+			start_ds1302
+			toggle_write_ds1302
+			stop_ds1302
+interrupt
